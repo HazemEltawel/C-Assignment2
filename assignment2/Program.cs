@@ -36,19 +36,19 @@ class prgram
 
         #region qustion4
         //4.Write C# program that Extract a substring from a given string.
-        string cra = "Hello, World!";
-        string input = cra.Substring(7, 5);
-        Console.WriteLine(input);
-        Console.ReadLine();
+        //string cra = "Hello, World!";
+        //string input = cra.Substring(7, 5);
+        //Console.WriteLine(input);
+        //Console.ReadLine();
         #endregion
 
         #region qustion5
         //5.Write C# program that Assigning one value type variable to another and modifying the value of one variable and mention what will happen
-        //int x = 10;
-        //int y = x;
-        //y = 20;
-        //Console.WriteLine(x);
-        //Console.WriteLine(y);
+        int x = 10;
+        int y = x;
+        y = 20;
+        Console.WriteLine(x);
+        Console.WriteLine(y);
         #endregion
 
         #region qustion6
