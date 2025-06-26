@@ -44,20 +44,20 @@ class prgram
 
         #region qustion5
         //5.Write C# program that Assigning one value type variable to another and modifying the value of one variable and mention what will happen
-        int x = 10;
-        int y = x;
-        y = 20;
-        Console.WriteLine(x);
-        Console.WriteLine(y);
+        //int x = 10;
+        //int y = x;
+        //y = 20;
+        //Console.WriteLine(x);
+        //Console.WriteLine(y);
         #endregion
 
         #region qustion6
         //6.Write C# program that Assigning one reference type variable to another and modifying the object through one variable and mention what will happen
-        //int[] num = { 1, 2, 3 };
-        //int[] num2 = num;
-        //num2[0] = 10;
-        //Console.WriteLine(num[0]);
-        //Console.WriteLine(num2[0]);
+        int[] num = { 1, 2, 3 };
+        int[] num2 = num;
+        num2[0] = 10;
+        Console.WriteLine(num[0]);
+        Console.WriteLine(num2[0]);
         #endregion
 
         #region qustion7
