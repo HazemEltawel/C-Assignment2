@@ -138,11 +138,11 @@ class prgram
         //Input: 9
         //Output: No
 
-        Console.Write("Enter a Number");
-        int Number = Convert.ToInt32(Console.ReadLine());
-        if (Number % 3 == 0 && Number % 4 == 0)
-        { Console.WriteLine("Yes"); }
-        else { Console.WriteLine("NO"); }
+        //Console.Write("Enter a Number");
+        //int Number = Convert.ToInt32(Console.ReadLine());
+        //if (Number % 3 == 0 && Number % 4 == 0)
+        //{ Console.WriteLine("Yes"); }
+        //else { Console.WriteLine("NO"); }
         #endregion
 
         #region qustion13
@@ -154,10 +154,10 @@ class prgram
         //Input: 10
         //Output: positive
 
-        //Console.Write("Enter Number");
-        //int Number = Convert.ToInt32(Console.ReadLine());
-        //if (Number < 0) { Console.WriteLine("negative"); }
-        //else { Console.WriteLine("positive"); }
+        Console.Write("Enter Number");
+        int Number = Convert.ToInt32(Console.ReadLine());
+        if (Number < 0) { Console.WriteLine("negative"); }
+        else { Console.WriteLine("positive"); }
 
         #endregion
 
