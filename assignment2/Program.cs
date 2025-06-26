@@ -201,10 +201,10 @@ class prgram
 
         #region qustion15
         //15. Write a program that allows the user to insert an integer number then check If a number is even or odd.
-        Console.Write("Enter Number");
-        int Number = Convert.ToInt32(Console.ReadLine());
-        if (Number % 2 == 0) { Console.WriteLine("Even"); }
-        else { Console.WriteLine("odd"); }
+        //Console.Write("Enter Number");
+        //int Number = Convert.ToInt32(Console.ReadLine());
+        //if (Number % 2 == 0) { Console.WriteLine("Even"); }
+        //else { Console.WriteLine("odd"); }
 
         #endregion
 
@@ -217,11 +217,11 @@ class prgram
         //Input: b
         //Output: Consonant
 
-        //Console.WriteLine("Enter chracter");
-        //string cha = Convert.ToString(Console.ReadLine().ToLower());
-        //if(cha=="a" || cha == "e" || cha == "i"|| cha == "o" || cha == "u") 
-        //{ Console.WriteLine("vowel"); }
-        //else { Console.WriteLine("consonant"); }
+        Console.WriteLine("Enter chracter");
+        string cha = Convert.ToString(Console.ReadLine().ToLower());
+        if (cha == "a" || cha == "e" || cha == "i" || cha == "o" || cha == "u")
+        { Console.WriteLine("vowel"); }
+        else { Console.WriteLine("consonant"); }
 
         #endregion
 
