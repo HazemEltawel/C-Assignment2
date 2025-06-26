@@ -115,18 +115,18 @@ class prgram
         //Today's date : 20 / 11 / 2001
         //Today's date : 20 – 11 – 2001
 
-        Console.Write("Enter The day");
-        int day = Convert.ToInt32(Console.ReadLine());
+        //Console.Write("Enter The day");
+        //int day = Convert.ToInt32(Console.ReadLine());
 
-        Console.Write("Enter The month");
-        int month = Convert.ToInt32(Console.ReadLine());
+        //Console.Write("Enter The month");
+        //int month = Convert.ToInt32(Console.ReadLine());
 
-        Console.Write("Enter The Year");
-        int year = Convert.ToInt32(Console.ReadLine());
+        //Console.Write("Enter The Year");
+        //int year = Convert.ToInt32(Console.ReadLine());
 
-        Console.WriteLine($"Today's date : {day} , {month} , {year}");
-        Console.WriteLine($"Today's date : {day} / {month} / {year} ");
-        Console.WriteLine($"Today's date : {day} - {month} - {year}");
+        //Console.WriteLine($"Today's date : {day} , {month} , {year}");
+        //Console.WriteLine($"Today's date : {day} / {month} / {year} ");
+        //Console.WriteLine($"Today's date : {day} - {month} - {year}");
         #endregion
 
         #region qustion12
@@ -138,11 +138,11 @@ class prgram
         //Input: 9
         //Output: No
 
-        //Console.Write("Enter a Number");
-        //int Number = Convert.ToInt32(Console.ReadLine());
-        //if(Number % 3 == 0 && Number % 4 == 0) 
-        //{ Console.WriteLine("Yes");}
-        //else { Console.WriteLine("NO"); }
+        Console.Write("Enter a Number");
+        int Number = Convert.ToInt32(Console.ReadLine());
+        if (Number % 3 == 0 && Number % 4 == 0)
+        { Console.WriteLine("Yes"); }
+        else { Console.WriteLine("NO"); }
         #endregion
 
         #region qustion13
