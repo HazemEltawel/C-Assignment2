@@ -12,7 +12,7 @@ class prgram
         #region qustion1
         //1.Write a program that allows the user to enter a number then print it.
         //Console.Write("Enter a number: ");
-        //int input =Convert.ToInt32(Console.ReadLine());
+        //int input = Convert.ToInt32(Console.ReadLine());
         //Console.WriteLine(input);
         #endregion
 
@@ -29,15 +29,15 @@ class prgram
         //int A = 10;
         //int B = 3;
         //int C = 5;
-        //int result = (A*C) + B;
+        //int result = (A * C) + B;
         //Console.WriteLine(result);
 
         #endregion
 
         #region qustion4
         //4.Write C# program that Extract a substring from a given string.
-        //string cra = "Hello, World!"; 
-        //string input = cra.Substring(7,5);
+        //string cra = "Hello, World!";
+        //string input = cra.Substring(7, 5);
         //Console.WriteLine(input);
         //Console.ReadLine();
         #endregion
@@ -72,25 +72,25 @@ class prgram
         //8.Write a program that calculates the simple interest given the principal amount, rate of interest, and time. 
         //Note: The formula for simple interest is Interest = (principal * rate * time) / 100.
 
-        //Console.Write("Enter the principal ");
-        //double principal = Convert.ToDouble(Console.ReadLine());
+        Console.Write("Enter the principal ");
+        double principal = Convert.ToDouble(Console.ReadLine());
 
-        //Console.Write("Enter the rate of interest");
-        //double rate = Convert.ToDouble(Console.ReadLine());
+        Console.Write("Enter the rate of interest");
+        double rate = Convert.ToDouble(Console.ReadLine());
 
 
-        //Console.Write("Enter the time in years");
-        //double time = Convert.ToDouble(Console.ReadLine());
+        Console.Write("Enter the time in years");
+        double time = Convert.ToDouble(Console.ReadLine());
 
-        //double interest = (principal * rate * time) / 100;x
-        //Console.WriteLine( "The simple interest is: " + interest);
+        double interest = (principal * rate * time) / 100; x
+        Console.WriteLine("The simple interest is: " + interest);
         #endregion
 
         #region qustion9
         //9.Write a program that calculates the Body Mass Index (BMI) given a person's weight in kilograms and height in meters. 
         //Note: The formula for BMI is BMI = (Weight) / (Height * Height)
         //Console.Write("Enter your weight ");
-        //double weight =Convert.ToDouble(Console.ReadLine());
+        //double weight = Convert.ToDouble(Console.ReadLine());
 
         //Console.Write("Enter your height");
         //double height = Convert.ToDouble(Console.ReadLine());
@@ -140,8 +140,8 @@ class prgram
 
         //Console.Write("Enter a Number");
         //int Number = Convert.ToInt32(Console.ReadLine());
-        //if(Number % 3 == 0 && Number % 4 == 0) 
-        //{ Console.WriteLine("Yes");}
+        //if (Number % 3 == 0 && Number % 4 == 0)
+        //{ Console.WriteLine("Yes"); }
         //else { Console.WriteLine("NO"); }
         #endregion
 
@@ -197,18 +197,13 @@ class prgram
         //Console.WriteLine("min element = " + min);
 
 
-
-
-
-
-
         #endregion
 
         #region qustion15
         //15. Write a program that allows the user to insert an integer number then check If a number is even or odd.
         //Console.Write("Enter Number");
         //int Number = Convert.ToInt32(Console.ReadLine());
-        //if(Number % 2 ==0) { Console.WriteLine("Even"); }
+        //if (Number % 2 == 0) { Console.WriteLine("Even"); }
         //else { Console.WriteLine("odd"); }
 
         #endregion
@@ -224,7 +219,7 @@ class prgram
 
         //Console.WriteLine("Enter chracter");
         //string cha = Convert.ToString(Console.ReadLine().ToLower());
-        //if(cha=="a" || cha == "e" || cha == "i"|| cha == "o" || cha == "u") 
+        //if (cha == "a" || cha == "e" || cha == "i" || cha == "o" || cha == "u")
         //{ Console.WriteLine("vowel"); }
         //else { Console.WriteLine("consonant"); }
 
@@ -236,27 +231,28 @@ class prgram
         //Input: Month Number: 1
         //Output: Days in Month: 31
 
-        //Console.Write("Enter month number (1 - 12) ");
-        //bool isValid = int.TryParse(Console.ReadLine(), out int month);
-        //if (!isValid || month < 1 || month > 12)
-        //{
-        //    Console.WriteLine("Invalid month number.");
-        //    return;
-        //}
-        //int day;
-        //if (month == 1 || month == 3 || month == 5 || month == 7 ||
-        //    month == 8 || month == 10 || month == 12)
-        //    { day = 31; }
-            
-        //else if (month == 4 || month == 6 || month == 9 || month == 11)
-        //        { day = 30;}
-        //else if (month == 2)
-        //        { day = 28; }
-        //else {
-        //    Console.WriteLine("Invalid month number.");
-        //    return;
-        //     }
-        //Console.WriteLine("Days in Month: " + day );
+        Console.Write("Enter month number (1 - 12) ");
+        bool isValid = int.TryParse(Console.ReadLine(), out int month);
+        if (!isValid || month < 1 || month > 12)
+        {
+            Console.WriteLine("Invalid month number.");
+            return;
+        }
+        int day;
+        if (month == 1 || month == 3 || month == 5 || month == 7 ||
+            month == 8 || month == 10 || month == 12)
+        { day = 31; }
+
+        else if (month == 4 || month == 6 || month == 9 || month == 11)
+        { day = 30; }
+        else if (month == 2)
+        { day = 28; }
+        else
+        {
+            Console.WriteLine("Invalid month number.");
+            return;
+        }
+        Console.WriteLine("Days in Month: " + day);
 
         #endregion
 
