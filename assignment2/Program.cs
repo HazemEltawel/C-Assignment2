@@ -18,19 +18,19 @@ class prgram
 
         #region qustion2
         //2.Write C# program that converts a string to an integer, but the string contains non-numeric characters. And mention what will happen
-        Console.Write("enter data ");
-        int number;
-        bool result = int.TryParse(Console.ReadLine(), out number);
-        Console.WriteLine(result);
+        //Console.Write("enter data ");
+        //int number;
+        //bool result = int.TryParse(Console.ReadLine(), out number);
+        //Console.WriteLine(result);
         #endregion
 
         #region qustion3
         //3.Write C# program that Perform a simple arithmetic operation with floating-point numbers And mention what will happen
-        //int A = 10;
-        //int B = 3;
-        //int C = 5;
-        //int result = (A*C) + B;
-        //Console.WriteLine(result);
+        int A = 10;
+        int B = 3;
+        int C = 5;
+        int result = (A * C) + B;
+        Console.WriteLine(result);
 
         #endregion
 
