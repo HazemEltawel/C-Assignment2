@@ -26,20 +26,20 @@ class prgram
 
         #region qustion3
         //3.Write C# program that Perform a simple arithmetic operation with floating-point numbers And mention what will happen
-        int A = 10;
-        int B = 3;
-        int C = 5;
-        int result = (A * C) + B;
-        Console.WriteLine(result);
+        //int A = 10;
+        //int B = 3;
+        //int C = 5;
+        //int result = (A * C) + B;
+        //Console.WriteLine(result);
 
         #endregion
 
         #region qustion4
         //4.Write C# program that Extract a substring from a given string.
-        //string cra = "Hello, World!"; 
-        //string input = cra.Substring(7,5);
-        //Console.WriteLine(input);
-        //Console.ReadLine();
+        string cra = "Hello, World!";
+        string input = cra.Substring(7, 5);
+        Console.WriteLine(input);
+        Console.ReadLine();
         #endregion
 
         #region qustion5
