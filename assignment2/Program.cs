@@ -89,23 +89,23 @@ class prgram
         #region qustion9
         //9.Write a program that calculates the Body Mass Index (BMI) given a person's weight in kilograms and height in meters. 
         //Note: The formula for BMI is BMI = (Weight) / (Height * Height)
-        Console.Write("Enter your weight ");
-        double weight = Convert.ToDouble(Console.ReadLine());
+        //Console.Write("Enter your weight ");
+        //double weight = Convert.ToDouble(Console.ReadLine());
 
-        Console.Write("Enter your height");
-        double height = Convert.ToDouble(Console.ReadLine());
-        double wh = weight / (height * height);
-        Console.WriteLine("Your wh is: " + wh);
+        //Console.Write("Enter your height");
+        //double height = Convert.ToDouble(Console.ReadLine());
+        //double wh = weight / (height * height);
+        //Console.WriteLine("Your wh is: " + wh);
         #endregion
 
         #region qustion10
         //Console.Write("Enter the temperature");
-        //int tem = Convert.ToInt32(Console.ReadLine());
-        //string result = "";
-        //if (tem > 30) { result = "it's hot"; }
-        //else if (tem < 10) { result = "it's cold"; }
-        //else { result = "Just Good"; }
-        //Console.WriteLine(result);
+        int tem = Convert.ToInt32(Console.ReadLine());
+        string result = "";
+        if (tem > 30) { result = "it's hot"; }
+        else if (tem < 10) { result = "it's cold"; }
+        else { result = "Just Good"; }
+        Console.WriteLine(result);
         #endregion
 
         #region qustion11
