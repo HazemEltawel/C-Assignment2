@@ -100,12 +100,12 @@ class prgram
 
         #region qustion10
         //Console.Write("Enter the temperature");
-        int tem = Convert.ToInt32(Console.ReadLine());
-        string result = "";
-        if (tem > 30) { result = "it's hot"; }
-        else if (tem < 10) { result = "it's cold"; }
-        else { result = "Just Good"; }
-        Console.WriteLine(result);
+        //int tem = Convert.ToInt32(Console.ReadLine());
+        //string result = "";
+        //if (tem > 30) { result = "it's hot"; }
+        //else if (tem < 10) { result = "it's cold"; }
+        //else { result = "Just Good"; }
+        //Console.WriteLine(result);
         #endregion
 
         #region qustion11
@@ -115,18 +115,18 @@ class prgram
         //Today's date : 20 / 11 / 2001
         //Today's date : 20 – 11 – 2001
 
-        //Console.Write("Enter The day");
-        //int day = Convert.ToInt32(Console.ReadLine());
+        Console.Write("Enter The day");
+        int day = Convert.ToInt32(Console.ReadLine());
 
-        //Console.Write("Enter The month");
-        //int month = Convert.ToInt32(Console.ReadLine());
+        Console.Write("Enter The month");
+        int month = Convert.ToInt32(Console.ReadLine());
 
-        //Console.Write("Enter The Year");
-        //int year = Convert.ToInt32(Console.ReadLine());
+        Console.Write("Enter The Year");
+        int year = Convert.ToInt32(Console.ReadLine());
 
-        //Console.WriteLine($"Today's date : {day} , {month} , {year}");
-        //Console.WriteLine($"Today's date : {day} / {month} / {year} ");
-        //Console.WriteLine($"Today's date : {day} - {month} - {year}");
+        Console.WriteLine($"Today's date : {day} , {month} , {year}");
+        Console.WriteLine($"Today's date : {day} / {month} / {year} ");
+        Console.WriteLine($"Today's date : {day} - {month} - {year}");
         #endregion
 
         #region qustion12
