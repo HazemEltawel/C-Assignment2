@@ -53,19 +53,19 @@ class prgram
 
         #region qustion6
         //6.Write C# program that Assigning one reference type variable to another and modifying the object through one variable and mention what will happen
-        int[] num = { 1, 2, 3 };
-        int[] num2 = num;
-        num2[0] = 10;
-        Console.WriteLine(num[0]);
-        Console.WriteLine(num2[0]);
+        //int[] num = { 1, 2, 3 };
+        //int[] num2 = num;
+        //num2[0] = 10;
+        //Console.WriteLine(num[0]);
+        //Console.WriteLine(num2[0]);
         #endregion
 
         #region qustion7
         //7.Write C# program that take two string variables and print them as one variable 
-        //string FirstName = "Hazem";
-        //string LastName = "Eltawel";
-        //string FullName = FirstName + " " + LastName;
-        //Console.WriteLine(FullName);
+        string FirstName = "Hazem";
+        string LastName = "Eltawel";
+        string FullName = FirstName + " " + LastName;
+        Console.WriteLine(FullName);
         #endregion
 
         #region qustion8
