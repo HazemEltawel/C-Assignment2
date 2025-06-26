@@ -11,17 +11,17 @@ class prgram
     {
         #region qustion1
         //1.Write a program that allows the user to enter a number then print it.
-        Console.Write("Enter a number: ");
-        int input = Convert.ToInt32(Console.ReadLine());
-        Console.WriteLine(input);
+        //Console.Write("Enter a number: ");
+        //int input = Convert.ToInt32(Console.ReadLine());
+        //Console.WriteLine(input);
         #endregion
 
         #region qustion2
         //2.Write C# program that converts a string to an integer, but the string contains non-numeric characters. And mention what will happen
-        //Console.Write("enter data ");
-        //int number;
-        //bool result = int.TryParse(Console.ReadLine(), out number);
-        //Console.WriteLine(result);
+        Console.Write("enter data ");
+        int number;
+        bool result = int.TryParse(Console.ReadLine(), out number);
+        Console.WriteLine(result);
         #endregion
 
         #region qustion3
@@ -195,11 +195,6 @@ class prgram
 
         //Console.WriteLine("Max element = " + max);
         //Console.WriteLine("min element = " + min);
-
-
-
-
-
 
 
         #endregion
