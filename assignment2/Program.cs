@@ -217,11 +217,11 @@ class prgram
         //Input: b
         //Output: Consonant
 
-        Console.WriteLine("Enter chracter");
-        string cha = Convert.ToString(Console.ReadLine().ToLower());
-        if (cha == "a" || cha == "e" || cha == "i" || cha == "o" || cha == "u")
-        { Console.WriteLine("vowel"); }
-        else { Console.WriteLine("consonant"); }
+        //Console.WriteLine("Enter chracter");
+        //string cha = Convert.ToString(Console.ReadLine().ToLower());
+        //if (cha == "a" || cha == "e" || cha == "i" || cha == "o" || cha == "u")
+        //{ Console.WriteLine("vowel"); }
+        //else { Console.WriteLine("consonant"); }
 
         #endregion
 
@@ -231,27 +231,28 @@ class prgram
         //Input: Month Number: 1
         //Output: Days in Month: 31
 
-        //Console.Write("Enter month number (1 - 12) ");
-        //bool isValid = int.TryParse(Console.ReadLine(), out int month);
-        //if (!isValid || month < 1 || month > 12)
-        //{
-        //    Console.WriteLine("Invalid month number.");
-        //    return;
-        //}
-        //int day;
-        //if (month == 1 || month == 3 || month == 5 || month == 7 ||
-        //    month == 8 || month == 10 || month == 12)
-        //    { day = 31; }
+        Console.Write("Enter month number (1 - 12) ");
+        bool isValid = int.TryParse(Console.ReadLine(), out int month);
+        if (!isValid || month < 1 || month > 12)
+        {
+            Console.WriteLine("Invalid month number.");
+            return;
+        }
+        int day;
+        if (month == 1 || month == 3 || month == 5 || month == 7 ||
+            month == 8 || month == 10 || month == 12)
+        { day = 31; }
 
-        //else if (month == 4 || month == 6 || month == 9 || month == 11)
-        //        { day = 30;}
-        //else if (month == 2)
-        //        { day = 28; }
-        //else {
-        //    Console.WriteLine("Invalid month number.");
-        //    return;
-        //     }
-        //Console.WriteLine("Days in Month: " + day );
+        else if (month == 4 || month == 6 || month == 9 || month == 11)
+        { day = 30; }
+        else if (month == 2)
+        { day = 28; }
+        else
+        {
+            Console.WriteLine("Invalid month number.");
+            return;
+        }
+        Console.WriteLine("Days in Month: " + day);
 
         #endregion
 
