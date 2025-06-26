@@ -62,28 +62,28 @@ class prgram
 
         #region qustion7
         //7.Write C# program that take two string variables and print them as one variable 
-        string FirstName = "Hazem";
-        string LastName = "Eltawel";
-        string FullName = FirstName + " " + LastName;
-        Console.WriteLine(FullName);
+        //string FirstName = "Hazem";
+        //string LastName = "Eltawel";
+        //string FullName = FirstName + " " + LastName;
+        //Console.WriteLine(FullName);
         #endregion
 
         #region qustion8
         //8.Write a program that calculates the simple interest given the principal amount, rate of interest, and time. 
         //Note: The formula for simple interest is Interest = (principal * rate * time) / 100.
 
-        //Console.Write("Enter the principal ");
-        //double principal = Convert.ToDouble(Console.ReadLine());
+        Console.Write("Enter the principal ");
+        double principal = Convert.ToDouble(Console.ReadLine());
 
-        //Console.Write("Enter the rate of interest");
-        //double rate = Convert.ToDouble(Console.ReadLine());
+        Console.Write("Enter the rate of interest");
+        double rate = Convert.ToDouble(Console.ReadLine());
 
 
-        //Console.Write("Enter the time in years");
-        //double time = Convert.ToDouble(Console.ReadLine());
+        Console.Write("Enter the time in years");
+        double time = Convert.ToDouble(Console.ReadLine());
 
-        //double interest = (principal * rate * time) / 100;x
-        //Console.WriteLine( "The simple interest is: " + interest);
+        double interest = (principal * rate * time) / 100; x
+        Console.WriteLine("The simple interest is: " + interest);
         #endregion
 
         #region qustion9
